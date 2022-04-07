@@ -1,0 +1,5 @@
+RewriteEngine On
+
+RewriteRule ^menu?$ index.php
+RewriteRule ^users?$ index.php?act=userList
+RewriteRule ^advertisements?$ index.php?act=advertisementList
